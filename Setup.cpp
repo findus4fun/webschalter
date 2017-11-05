@@ -51,6 +51,8 @@ void LeseEepromStr(String *daten, int lenge)
   } while (a);
 }
 
+
+
 void SchreibeEeprom (String k)
 {
   int i = 0, blja = 64;
